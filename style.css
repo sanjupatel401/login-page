@@ -1,0 +1,142 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #dfe6e9;
+}
+
+body .maindiv {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .box {
+  width: 50vh;
+  height: 500px;
+  background-color: #fff;
+  padding: 20px;
+  -webkit-box-shadow: inset -1px 6px 25px 0px rgba(0, 0, 0, 0.44);
+  box-shadow: inset -1px 6px 25px 0px rgba(0, 0, 0, 0.44);
+  border-radius: 10px;
+  position: relative;
+}
+
+body .box span {
+  color: #ff8800;
+}
+
+body .box H1 {
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2PX;
+}
+
+body .box .username {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+body .box .username input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  color: #ffff;
+  background-color: #000;
+  padding-left: 10px;
+  font-size: 17px;
+  border-radius: 8px;
+  font-family: monospace;
+}
+
+body .box .password {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+body .box .password input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  color: #ffff;
+  background-color: #000;
+  padding-left: 10px;
+  font-size: 17px;
+  border-radius: 8px;
+  font-family: monospace;
+  margin-bottom: 20px;
+}
+
+body .box .cheakbox {
+  width: 100%;
+  height: 40px;
+  margin: 20px 0 20px 0;
+}
+
+body .box .cheakbox input {
+  width: 20px;
+  height: 20px;
+}
+
+body .box .cheakbox #span {
+  line-height: 30px;
+  font-size: 20px;
+  top: -3px;
+  position: relative;
+  color: black;
+  font-weight: 400;
+  font-family: monospace;
+}
+
+body .box .btn {
+  width: 100%;
+  height: 50px;
+}
+
+body .box .btn #login {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 166, 0, 0.87);
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: monospace;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+body .box .btn #login:hover {
+  background-color: orange;
+}
+
+body .box .fa {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  margin: 20px 20px 20px 0;
+}
+
+body .box a {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
